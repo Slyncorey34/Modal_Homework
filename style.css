@@ -1,0 +1,14 @@
+body {
+	font-family: Arial, sans-serif
+}
+#nav_bar ul {
+	background-color: slategrey;
+	color: white;
+}
+#nav_bar li {
+	list-style: none;
+	
+}
+#nav_bar a {
+	text-decoration: none;
+}
