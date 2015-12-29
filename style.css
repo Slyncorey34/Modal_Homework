@@ -1,11 +1,11 @@
 html {
 	font-family: Arial, sans-serif;
 	color: white;
-	background-color: pink;
+	/*background-color: pink;*/
 	}
 
 body{
-	/*background-image: url("radio.jpg");*/
+	background-image: url("radio.jpg");
 	background-size: 100%;
 	background-attachment: fixed;
 }
@@ -63,9 +63,13 @@ p  {
 	display: none;
 }
 #inner_modal {
-		background-color: rgba(0,.5,0,0);
-		width: 70px;
-		height: 70px;	
+		background-color: white;
+		width: 380px;
+		height: 300px;
+		border-radius: 20px;
+		margin-left: 320px;
+		margin-top: 150px;
+		
 }
 
 
