@@ -30,7 +30,7 @@ body{
 	width: 50%;
 	height: 200px;
 	margin-left: 20px;
-	border: 1px solid red;
+
 }
 /*#wrapper h1 {
 
@@ -63,16 +63,32 @@ p  {
 	display: none;
 }
 #inner_modal {
+		/*background-size:80%;
+		background-repeat: no-repeat;*/
 		background-color: white;
 		width: 380px;
 		height: 300px;
 		border-radius: 20px;
 		margin-left: 320px;
 		margin-top: 150px;
-		
+		color: slategrey;
 }
-
-
+#inner_modal p{
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	/*margin-left: 15%;*/
+	
+}
+#inner_modal h2{
+	text-align: center;
+	padding-top: 3%;
+	color: red;
+}
+#inner_modal a {
+	text-decoration: none;
+	color: orange;
+}
 
 
 
