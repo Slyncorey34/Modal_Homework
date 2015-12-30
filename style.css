@@ -1,58 +1,67 @@
 html {
 	font-family: Arial, sans-serif;
 	color: white;
-	/*background-color: pink;*/
-	}
-
-body{
 	background-image: url("radio.jpg");
-	background-size: 100%;
-	background-attachment: fixed;
+	background-size: 90%;
 }
-
 #nav_bar ul {
-	height: 10px;
-	width: auto;
+	height: 40px;
+	width: 100%;
+	background-color: red;
+	margin-top: -10px;
+	
 }
-
 #nav_bar li {
 	list-style: none;
 	display: inline;
 	padding: 15px;
+	margin-right: 4%;
 	font-weight: bold;
 	color: white;
 	float: right;	
 }
 #nav_bar a {
 	text-decoration: none;
+	color: black;
 }
 #wrapper {
-	width: 50%;
-	height: 200px;
-	margin-left: 20px;
+	height: 100%;
 
 }
-/*#wrapper h1 {
-
+.section1 {
+	height: auto;
+	width: 100%;
 }
-p  {
-	color: white;
-	margin-left: 30px;
-	width: auto;
-	height: 200px;
-	padding-top: 20px;
-
+.section2 {
+	margin-top: 280px;
+	width: 100%;
+	height: auto;
+	background-color: white;
 }
-#overlay {
-     
-     position: absolute;
-     left: 0px;
-     top: 0px;
-     width:100%;
-     height:100%;
-     text-align:center;
-  /*   z-index: 1000;*/
-
+#p1	{
+	padding-top: 10px;
+	color: red;
+	height: auto;
+	width: 25%;
+	margin-left: 15px;
+	float: left;
+}
+#p2 {
+	padding-top: 10px;
+	color: red;
+	height: auto;
+	width: 25%;
+	margin-left: 25px;
+	display: inline-block;
+}
+#p3 {
+	padding-top: 10px;
+	color: red;
+	height: auto;
+	width: 40%;
+	display: inline-block;
+	float:right;
+}
 #modal{
 	position: absolute;
 	top: 0px;
@@ -63,11 +72,9 @@ p  {
 	display: none;
 }
 #inner_modal {
-		/*background-size:80%;
-		background-repeat: no-repeat;*/
 		background-color: white;
-		width: 380px;
-		height: 300px;
+		width: 480px;
+		height: 400px;
 		border-radius: 20px;
 		margin-left: 320px;
 		margin-top: 150px;
